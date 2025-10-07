@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SUSE Mono", sans-serif;
+ 
+
+
+}
+body {
+   height: 200vh;
+   background-color: rgb(235, 233, 233);
+
+}
+.burger-menu {
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+header {
+  background-image: url(Images/background\ immage.jpg);
+  background-size: cover;
+  background-position: 20%;
+  width: 100%;
+  height: 600px;
+
+  
+}
+h1 {
+  font-size: 50px;
+  text-align: right;
+  justify-content: center;
+  color: white;
+  margin-top: 13%;
+  margin-left: 40%;
+  width: 50%;
+  align-items: right;
+  display: flex;
+}
+nav {
+ text-align: center;
+ justify-content: center;
+ display: flex;
+ align-items: flex-end;
+
+}
+nav ul {
+  display: flex;
+  text-align: right;
+  
+}
+nav ul li {
+  list-style-type: none;
+  margin: 1rem;
+  display: flex;
+  align-items: right;
+   
+ 
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  background-color:rgba(0, 0, 0, 0.157);
+  padding: 1rem 1rem;
+  border-radius: 4px;
+  transition: .7s;
+ 
+}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.237) ;
+}
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    
+  }
+  h1 {
+  font-size:32px;
+  text-align: right;
+  justify-content: center;
+  color: white;
+  margin-top: 13%;
+  margin-left: 40%;
+  width: 50%;
+  align-items: right;
+  display: flex;
+}
+.first-section{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+}
+.first-section p {
+  width: 400px;
+  font-size: 20px;
+}
+.shampoo-image{
+  width: 500px;
+  height: 300px;
+}
+}
+@media (min-width: 768px) {
+  .burger-menu  {
+    display: none;
+    cursor: pointer;
+  }
+}
+
+.first-section{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+}
+.first-section p {
+  width: 600px;
+  font-size: 32px;
+}
+.shampoo-image{
+  width: 500px;
+  height: 300px;
+}
+.second-section{
+  margin-top: 2rem;
+  margin-left: 7rem;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 7rem;
+}
+.orange-image{
+   width: 500px;
+  height: 300px;
+  margin-right: 4rem;
+
+}
+.second-section p {
+  width: 600px;
+  font-size: 32px; }
+.btn {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 26px;
+  padding: 1rem 2.3rem;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}

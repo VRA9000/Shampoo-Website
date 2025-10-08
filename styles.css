@@ -186,7 +186,43 @@ justify-content: center;
   
 }
 
-
+.subscribe-field {
+  height: 200px;
+  background-color: bisque;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-field input {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+}
+.subscribe-btn {
+  margin-top: 4%;
+   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 20px;
+  padding: 1rem 2.3rem;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.7s;
+  margin-top: 2rem;
+}
+.subscribe-btn:hover {
+  background-color: white;
+  color: black;
+}
 
 
 

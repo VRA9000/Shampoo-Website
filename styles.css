@@ -46,7 +46,8 @@ nav {
  text-align: center;
  justify-content: center;
  display: flex;
- align-items: flex-end;
+margin-left: 50%;
+flex-wrap: wrap;
 
 }
 nav ul {
@@ -86,17 +87,31 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-evenly;
   margin-top: 7rem;
+  flex-wrap: wrap;
 }
 .second-section{
   margin-top: 2rem;
   margin-left: 7rem;
   display: flex;
   justify-content:space-between;
+   flex-wrap: wrap;
   margin-top: 7rem;
+  text-align: center;
+  justify-content: center;
 }
 .sescond-section p {
   width: 400px;
   font-size: 16px;
+}
+.first-section .shampoo-image{
+  width: 400px;
+  height: 400px;
+}
+
+.second-section .orange-image{
+  width: 400px;
+  height: 400px;
+  margin-right: 2rem;
 }
 
 .second-section p {
@@ -122,14 +137,42 @@ nav ul li a:hover {
   background-color: white;
   color: black;
 }
+.third-section{
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+.card {
+ width: 300px;
+ background-color: whitesmoke;
+ border-radius: 4px;
+ padding: 1rem 2rem;
+ text-align: center;
+ align-items: center;
+justify-content: center;
+}
+.card img {
+  width : 50%;
+  height: 25%;
+  border-radius: 50%;
+}
+.tetimonials {
+  display: flex;
+  gap: 1rem;
+    text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
 
 
 
 
-
-
-
-
+/*---------- Media--------------- */
 
 @media (max-width: 768px) {
   nav ul {

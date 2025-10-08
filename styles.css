@@ -10,7 +10,6 @@
 
 }
 body {
-   height: 200vh;
    background-color: rgb(235, 233, 233);
 
 }
@@ -137,11 +136,17 @@ nav ul li a:hover {
   background-color: white;
   color: black;
 }
+h2 {
+  text-align: center;
+  margin-top: 4rem;
+
+}
 .third-section{
   text-align: center;
   margin: auto;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20%;
 
 }
 .card {
@@ -152,6 +157,13 @@ nav ul li a:hover {
  text-align: center;
  align-items: center;
 justify-content: center;
+ height: 400px;
+ cursor: pointer;
+ transition: 0.7s all;
+ box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.298);
+}
+.card:hover {
+  background-color: rgba(255, 228, 196, 0.593);
 }
 .card .testimonial-text {
   font-size: 16px;
@@ -163,14 +175,17 @@ justify-content: center;
 }
 .tetimonials {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
     text-align: center;
   margin: auto;
   align-items: center;
   justify-content: center;
-  margin-top: 20%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 3rem;
+  
 }
+
 
 
 

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "SUSE Mono", sans-serif;
+  font-family: "Figtree", sans-serif;
  
 
 
@@ -79,7 +79,9 @@ nav ul li a:hover {
   width: 400px;
   font-size: 32px;
 }
-
+nav ul li .active {
+  background-color:rgba(0, 0, 0, 0.237) ; ;
+}
 .first-section{
   margin-top: 2rem;
   margin-left: 3rem;
@@ -105,12 +107,16 @@ nav ul li a:hover {
 .first-section .shampoo-image{
   width: 400px;
   height: 400px;
+  border-radius: 5px;
+ box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.258);
 }
 
 .second-section .orange-image{
   width: 400px;
   height: 400px;
   margin-right: 2rem;
+  border-radius: 5px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.258);
 }
 
 .second-section p {

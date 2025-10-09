@@ -92,29 +92,29 @@ nav ul li .active {
 }
 .second-section{
   margin-top: 2rem;
-  margin-left: 7rem;
   display: flex;
-  justify-content:space-between;
-   flex-wrap: wrap;
-  margin-top: 7rem;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
 }
 .sescond-section p {
   width: 400px;
   font-size: 16px;
+  
 }
 .first-section .shampoo-image{
-  width: 400px;
-  height: 400px;
+  display: flex;
+  width: 500px;
+  height: 500px;
   border-radius: 5px;
  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.258);
 }
 
 .second-section .orange-image{
-  width: 400px;
-  height: 400px;
-  margin-right: 2rem;
+  width: 500px;
+  height: 500px;
+  margin-right: 10rem;
   border-radius: 5px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.258);
 }
